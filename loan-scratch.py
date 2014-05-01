@@ -1,5 +1,9 @@
 __author__ = 'dan'
 
+'''
+Playground file for trying things out...
+'''
+
 import os
 import sys
 import xml.dom.minidom as xml

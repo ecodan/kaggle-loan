@@ -1,32 +1,24 @@
 __author__ = 'dan'
 
+'''
+Primary munge, train and predict file for the loan challenge.
+
+Choose the steps you want to perform (vs. starting with intermediate files) and the full or partial training file(s)
+'''
 
 import os
-import sys
-import xml.dom.minidom as xml
+
 import pandas as pd
 import numpy as np
-import random
-from pandas.core.series import Series
-from pandas.tseries.index import date_range
-import matplotlib as mp
-import matplotlib.pyplot as plt
-import pylab
-import datetime
-import csv
 import sklearn as sl
 from sklearn import neighbors
-from sklearn import cross_validation
-from sklearn import datasets
-from sklearn import svm
 from sklearn import preprocessing
 from sklearn import linear_model
-from sklearn.decomposition import RandomizedPCA
 from sklearn.ensemble import RandomForestClassifier
-from sklearn.tree import DecisionTreeClassifier
 from sklearn import svm
 from sklearn.svm import LinearSVC
 from sklearn.metrics import roc_auc_score
+
 
 #steps = [1,2,3,4,5] # all
 #steps = [3,4,5] # pca+

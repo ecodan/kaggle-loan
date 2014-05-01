@@ -1,30 +1,14 @@
 __author__ = 'dan'
 
+'''
+Utility file to score predictions
+'''
 
-import os
-import sys
-import xml.dom.minidom as xml
 import pandas as pd
-import numpy as np
-import random
-from pandas.core.series import Series
-from pandas.tseries.index import date_range
-import matplotlib as mp
-import matplotlib.pyplot as plt
-import pylab
-import datetime
-import csv
 import sklearn as sl
-from sklearn import gaussian_process
 from sklearn import cross_validation
-from sklearn import datasets
-from sklearn import svm
-from sklearn import preprocessing
 from sklearn import linear_model
-from sklearn.decomposition import RandomizedPCA
-from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
-from sklearn import svm
 
 
 #use_pca=True
